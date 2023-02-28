@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4513E8EE29AD3E96001E41F2 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4513E8ED29AD3E96001E41F2 /* MainTabView.swift */; };
 		C4EF480D29A6B9B800181FAD /* deeplinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF480C29A6B9B800181FAD /* deeplinkApp.swift */; };
 		C4EF480F29A6B9B800181FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EF480E29A6B9B800181FAD /* ContentView.swift */; };
 		C4EF481129A6B9BA00181FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EF481029A6B9BA00181FAD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4513E8ED29AD3E96001E41F2 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		C4EF480929A6B9B800181FAD /* deeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EF480C29A6B9B800181FAD /* deeplinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deeplinkApp.swift; sourceTree = "<group>"; };
 		C4EF480E29A6B9B800181FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,11 +54,12 @@
 		C4EF480B29A6B9B800181FAD /* deeplink */ = {
 			isa = PBXGroup;
 			children = (
-				C4EF480C29A6B9B800181FAD /* deeplinkApp.swift */,
-				C4EF480E29A6B9B800181FAD /* ContentView.swift */,
 				C4EF481029A6B9BA00181FAD /* Assets.xcassets */,
+				C4EF480E29A6B9B800181FAD /* ContentView.swift */,
 				C4EF481229A6B9BA00181FAD /* deeplink.entitlements */,
+				C4EF480C29A6B9B800181FAD /* deeplinkApp.swift */,
 				C4EF481329A6B9BA00181FAD /* Preview Content */,
+				4513E8ED29AD3E96001E41F2 /* MainTabView.swift */,
 			);
 			path = deeplink;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				C4EF480F29A6B9B800181FAD /* ContentView.swift in Sources */,
 				C4EF480D29A6B9B800181FAD /* deeplinkApp.swift in Sources */,
+				4513E8EE29AD3E96001E41F2 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

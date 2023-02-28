@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>applinks:storagedeeplink.z13.web.core.windows.net?mode=developer</string>
+		<string>applinks:storagedeeplink.z13.web.core.windows.net</string>
 	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
